@@ -601,7 +601,7 @@ sub _DoAnchors {
 			$result .=  " title=\"$title\"";
 		}
 
-		$result .= " target=\"_blank\">$link_text</a> ($url)";
+		$result .= " target=\"$g_escape_table{'_'}blank\">$link_text</a> ($url)";
 
 		$result;
 	}xsge;
